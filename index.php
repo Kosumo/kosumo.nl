@@ -53,9 +53,6 @@
                     <li>
                         <a href="services.html"><i class="fa fa-cog"></i>Services</a>
                     </li>
-                    <li>
-                        <a href="devices.html"><i class="fa fa-desktop"></i>Devices</a>
-                    </li>
                 </ul>
 
             </div>
