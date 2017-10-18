@@ -71,7 +71,7 @@
                 <div class="row">               
                     <div class="col-md-3 col-sm-3 col-xs-6">
                             <?php
-                            if(fsockopen("192.168.2.200",10011)) : ?>
+                            if(fsockopen("192.168.2.190",10011)) : ?>
                             <div class="panel panel-primary text-center no-boder bg-color-green">
                             <?php else : ?>
                             <div class="panel panel-primary text-center no-boder bg-color-red">
