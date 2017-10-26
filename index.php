@@ -116,7 +116,7 @@
                             <div class="panel panel-primary text-center no-boder bg-color-red">
                             <?php endif; ?>
                                 <div class="panel-body">
-                                    <img src="assets/img/killinfloor.png" style="width:100px;height:100px;">
+                                    <img src="assets/img/kfserver.png" style="width:100px;height:100px;">
                                     <h3>KFServer</h3>
                                 </div>
                             </div>
