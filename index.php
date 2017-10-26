@@ -71,7 +71,7 @@
                 <div class="row">               
                     <div class="col-md-3 col-sm-3 col-xs-6">
                             <?php
-                            if(fsockopen("86.95.55.80",10011)) : ?>
+                            if(fsockopen("192.168.2.190",10011)) : ?>
                             <div class="panel panel-primary text-center no-boder bg-color-green">
                             <?php else : ?>
                             <div class="panel panel-primary text-center no-boder bg-color-red">
@@ -84,7 +84,7 @@
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6">
                             <?php
-                            if(fsockopen("86.95.55.80",7878)) : ?>
+                            if(fsockopen("192.168.2.190",7878)) : ?>
                             <div class="panel panel-primary text-center no-boder bg-color-green">
                             <?php else : ?>
                             <div class="panel panel-primary text-center no-boder bg-color-red">
@@ -97,7 +97,7 @@
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6">
                             <?php
-                            if(fsockopen("86.95.55.80",27020)) : ?>
+                            if(fsockopen("192.168.2.190",27020)) : ?>
                             <div class="panel panel-primary text-center no-boder bg-color-green">
                             <?php else : ?>
                             <div class="panel panel-primary text-center no-boder bg-color-red">
@@ -110,7 +110,7 @@
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6">
                             <?php
-                            if(fsockopen("86.95.55.80",7708)) : ?>
+                            if(fsockopen("192.168.2.190",8075)) : ?>
                             <div class="panel panel-primary text-center no-boder bg-color-green">
                             <?php else : ?>
                             <div class="panel panel-primary text-center no-boder bg-color-red">
