@@ -109,6 +109,7 @@
                             </div>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6">
+                        <a href="https://kosumo.nl/ServerAdmin">
                             <?php
                             if(fsockopen("192.168.2.190",8075)) : ?>
                             <div class="panel panel-primary text-center no-boder bg-color-green">
@@ -120,6 +121,7 @@
                                     <h3>KFServer</h3>
                                 </div>
                             </div>
+                        </a>
                     </div>         
                 </div>
                  <!-- /. ROW  -->           
