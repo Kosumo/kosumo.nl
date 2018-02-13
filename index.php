@@ -122,7 +122,21 @@
                                 </div>
                             </div>
                         </a>
-                    </div>         
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                            <?php
+                            if(fsockopen("192.168.2.190",34197)) : ?>
+                            <div class="panel panel-primary text-center no-boder bg-color-green">
+                            <?php else : ?>
+                            <div class="panel panel-primary text-center no-boder bg-color-red">
+                            <?php endif; ?>
+                                <div class="panel-body">
+                                    <img src="assets/img/factorio.png" style="width:100px;height:100px;">
+                                    <h3>Factorio</h3>
+                                </div>
+                            </div>
+                        </a>
+                    </div>          
                 </div>
                  <!-- /. ROW  -->           
     </div>
