@@ -81,6 +81,7 @@
                                     <h3>Teamspeak</h3>
                                 </div>
                             </div>
+                            </div>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6">
                             <?php
@@ -94,6 +95,7 @@
                                     <h3>Terraria</h3>
                                 </div>
                             </div>
+                            </div>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6">
                             <?php
@@ -106,6 +108,7 @@
                                     <img src="assets/img/csgo.png" style="width:100px;height:100px;">
                                     <h3>CSGO</h3>
                                 </div>
+                            </div>
                             </div>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6">
@@ -121,6 +124,7 @@
                                     <h3>KFServer</h3>
                                 </div>
                             </div>
+                            </div>
                         </a>
                     </div>
                     <div class="col-md-3 col-sm-3 col-xs-6">
@@ -132,12 +136,25 @@
                             <?php endif; ?>
                                 <div class="panel-body">
                                     <img src="assets/img/factorio.png" style="width:100px;height:100px;">
+                                    <h3>OpenRCT2</h3>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-6">
+                            <?php
+                            if(fsockopen("192.168.2.190",11753)) : ?>
+                            <div class="panel panel-primary text-center no-boder bg-color-green">
+                            <?php else : ?>
+                            <div class="panel panel-primary text-center no-boder bg-color-red">
+                            <?php endif; ?>
+                                <div class="panel-body">
+                                    <img src="assets/img/openrct2.png" style="width:100px;height:100px;">
                                     <h3>Factorio</h3>
                                 </div>
                             </div>
-                        </a>
-                    </div>          
-                </div>
+                            </div>          
+                    </div>
                  <!-- /. ROW  -->           
     </div>
              <!-- /. PAGE INNER  -->
